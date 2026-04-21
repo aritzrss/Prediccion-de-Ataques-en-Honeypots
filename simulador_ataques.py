@@ -7,8 +7,8 @@ TARGET_IP = "13.39.18.122" # Pon tu IP pública aquí
 TARGET_PORT = 22                # El 22 redirige a la trampa Cowrie según tu Docker
 NUMERO_SESIONES_A_GENERAR = 5000 
 
-USERNAMES = ["root", "admin", "test", "ubuntu", "oracle", "pi", "postgres", "mysql", "git", "vagrant", "guest", "ftp", "jenkins", "docker", "www-data", "tomcat", "hadoop", "spark", "user", "support"]
-PASSWORDS = ["123456", "root", "admin", "password", "12345", "qwerty", "toor", "123456789", "pi", "test", "111111", "changeme", "default", "12345678", "admin123", "P@ssw0rd", "1234", "password123"]
+USERNAMES = ["root"] 
+PASSWORDS = ["123456", "root", "12345"]  
 
 # --- DICCIONARIOS DE RUIDO ---
 COMANDOS_RUIDO = [

