@@ -3,7 +3,7 @@ import time
 import random
 
 # --- CONFIGURACIÓN ---
-TARGET_IP = "13.39.18.122" # Pon tu IP pública aquí
+TARGET_IP = "13.39.51.191" # Pon tu IP pública aquí
 TARGET_PORT = 22                # El 22 redirige a la trampa Cowrie según tu Docker
 NUMERO_SESIONES_A_GENERAR = 5000 
 
