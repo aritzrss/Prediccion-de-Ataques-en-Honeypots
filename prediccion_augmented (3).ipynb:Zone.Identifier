@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/4dc8b440-96e6-4c66-b231-883463f70d0b
+HostUrl=https://claude.ai/api/organizations/fe1a6362-f19d-494a-abc6-7b3aaf753527/conversations/4dc8b440-96e6-4c66-b231-883463f70d0b/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2Fprediccion_augmented.ipynb

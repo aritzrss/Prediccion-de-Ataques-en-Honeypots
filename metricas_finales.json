@@ -1,0 +1,19 @@
+{
+  "sesiones_originales": 455,
+  "sesiones_train_aumentadas": 5600,
+  "vocab_size": 178,
+  "num_clases": 7,
+  "distribucion_train_aumentada": {
+    "Impacto/Ransomware": 800,
+    "Persistencia/Backdoor": 800,
+    "Ejecución de Payload": 800,
+    "Escalada de Privilegios": 800,
+    "Reconocimiento": 800,
+    "Exfiltración de Datos": 800,
+    "Movimiento Lateral": 800
+  },
+  "test_accuracy": 0.9341,
+  "test_precision": 0.9567,
+  "test_recall": 0.9346,
+  "test_perplexity": 1.89
+}
